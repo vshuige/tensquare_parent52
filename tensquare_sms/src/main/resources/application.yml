@@ -1,0 +1,7 @@
+server:
+  port: 8009
+spring:
+  application:
+    name: tensquare-sms #这个服务名不写没关系，因为发布后该模块会自己监听rabbit的消息发短信，并没有其他模块需要调用它
+  rabbitmq:
+    host: 192.168.43.12
